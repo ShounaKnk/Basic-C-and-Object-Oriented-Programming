@@ -57,8 +57,8 @@ namespace grade_report
         void percent()
         {
             sum = mk1+mk2+mk3;
-            perc = ((mk1+mk2+mk3)/300)*100;
-            cout<<"percentage: "<<perc;
+            perc = ((sum)/300)*100;
+            cout<<"percentage: "<<perc<<endl;
         }
         void grade()
         {
@@ -82,7 +82,7 @@ namespace grade_report
             {
                 grd = 'F';
             }
-            cout<<"grade: "<<grd;
+            cout<<"grade: "<<grd<<endl<<endl;
         }
         int getmk1()
         {
