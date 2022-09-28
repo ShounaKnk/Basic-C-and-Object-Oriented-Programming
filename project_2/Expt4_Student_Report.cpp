@@ -45,6 +45,7 @@ int main ()
         cout<<"Subjet 3 marks: "<<m[i].getmk3()<<endl;
         m[i].percent();
         m[i].grade();
+        cout<<"fuck off";
     }
     return 0;
 }
