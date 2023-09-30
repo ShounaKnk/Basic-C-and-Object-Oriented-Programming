@@ -31,7 +31,7 @@ class Date
     }
     void display()
     {
-        cout<<"Date: "<<day<<"-"<<month<<"-"<<year<<endl;
+        cout<<"\nDate: "<<day<<"-"<<month<<"-"<<year<<endl;
     }
 };
 int main ()

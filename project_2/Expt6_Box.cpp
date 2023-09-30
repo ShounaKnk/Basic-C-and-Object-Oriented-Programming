@@ -68,11 +68,11 @@ int main ()
     cin>>n;
     for(i=0; i<n; i++)
     {
-        cout<<"enter the length of object"<<i+1<<": "<<endl;
+        cout<<"\nenter the length of object"<<i+1<<": ";
         cin>>l;
-        cout<<"enter the breadth of object"<<i+1<<": "<<endl;
+        cout<<"enter the breadth of object"<<i+1<<": ";
         cin>>b;
-        cout<<"enter the height of object"<<i+1<<": "<<endl;
+        cout<<"enter the height of object"<<i+1<<": ";
         cin>>h;
         cout<<endl;
         object[i].setlength(l);

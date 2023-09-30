@@ -17,14 +17,6 @@ Known bugs:
 =================================*/
 #include<iostream>
 using namespace std;
-
-int main()
-{
-    cout<<"Hello World";
-    return 0;
-}
-#include<iostream>
-using namespace std;
 class phonebook
 {
     string name, number;
@@ -60,17 +52,18 @@ int main ()
     int n, i;
     string NAME, NUMBER;
 
-    cout<<"enter the number of contacts to add"<<endl;
+    cout<<"enter the number of contacts to add: ";
     cin>>n;
     for(i=0; i<n; i++)
     {
-        cout<<"\n\nenter the name: ";
+        cout<<"\nenter the name: ";
         cin>>NAME;
         cout<<"enter contact number: ";
         cin >> NUMBER;
         c[i].setname(NAME);
         c[i].setnumber(NUMBER);
     }
+    cout<<"\n********************** CONTACTS **********************\n";
     for(i=0; i<n; i++)
     {
         c[i].display();

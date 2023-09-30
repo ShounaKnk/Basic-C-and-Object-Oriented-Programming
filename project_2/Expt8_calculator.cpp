@@ -6,8 +6,7 @@ Roll No.: 21co54
 Language: C++
 Due date:
 =================================
-Description: Create a class called
-‘calculator’ which implements basic arithmetic operations.
+Description: Create a class called 'calculator’ which implements basic arithmetic operations.
 Input: equation
 Output: result of the equation
 Algorithm:
@@ -55,7 +54,7 @@ class calculator
     }
     void display()
     {
-        cout<<"\n\nNum1: "<<a<<endl;
+        cout<<"\nNum1: "<<a<<endl;
         cout<<"Num2: "<<b<<endl;
         cout<<"Answer: "<<ans<<endl;
     }
